@@ -1,0 +1,89 @@
+.sidebar1 {
+    display: flex;
+    flex-direction: column;
+    /*height: 100%;*/
+    margin-right: -1px;
+}
+
+.top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background: linear-gradient(to right,#0acffe 0,#495aff 100%);
+    color: white;
+    width: 97%;
+    
+}
+
+.bottom-row {
+    display: flex;
+    flex: 1;
+    width:100%;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+}
+
+.left-column {
+    flex: 1;
+}
+
+.right-column {
+    margin-right: 20px; /* Adjust as needed */
+}
+
+.sidebar-content {
+    
+    padding-top: 200px;
+    width: 250px; /* Adjust as needed */
+    /*background-color: #f4f4f4;*/
+    background: linear-gradient(to right,#0acffe 0,#495aff 100%);
+    padding: 0px;
+    height: 90vh;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    /*color: #333;*/
+    margin-bottom: 10px;
+}
+
+.link:hover {
+    /*background-color: #ddd;*/
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.logo {
+    margin: 0;
+}
+
+.link-text {
+    flex: 1;
+}
+
+.content {
+    flex: 1;
+    padding: 0px;
+    background:hwb(0 93% 5%);
+    width:1200px;
+    overflow-y: auto; /* Add scrollbar for vertical overflow */
+    max-height: calc(100vh - 20px); /* Adjust the max height as needed */
+    margin-right:-0px;
+}
+
+.sub-menu {
+    
+    top: 0;
+    left: 200%;
+    background-color: black;
+    padding: 10px; /* Adjust padding as needed */
+
+}

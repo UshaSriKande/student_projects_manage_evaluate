@@ -1,0 +1,118 @@
+
+.search-container {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.filter-radio-buttons label {
+ 
+  margin-right: 20px;
+}
+
+.table-search-container table {
+  margin-left: 20px;
+  
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-search-container th,
+.table-search-container td {
+  border:none;
+  padding: 8px;
+  text-align: center;
+  
+  border-top: 1px solid rgb(215, 204, 204);
+}
+
+.table-search-container th {
+  border:none;
+  /*background-color: #f2f2f2;*/
+}
+
+.table-search-container-proj th,
+.table-search-container-proj td {
+  
+  padding: 8px;
+  text-align:left;
+  
+  border: 1px solid black;
+}
+
+.table-search-container-proj table {
+  margin-left: 20px;
+  
+  width: 95%;
+  border-collapse: collapse;
+  border: radius 20px;;
+}
+
+.table-search-container-proj th {
+  height:50px;
+}
+.proj{
+ margin-left: 20px;
+ margin-right: 20px;
+}
+.table-search-container-proj th {
+  
+  /*background-color: #f2f2f2;*/
+}
+.table-search-container tr:nth-child(even) {
+  
+}
+
+.pagination {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 900px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  
+}
+
+.pagination li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.pagination li.active a {
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+th{
+  text-align: center;
+}
+.table-bordered tbody tr td {
+  border: none;
+}
+
+/* Add bottom border to each row */
+.table-bordered tbody tr {
+  border-top: 1px solid rgb(215, 204, 204);
+}
+
+
+.details-container {
+  margin-top: 50px;
+  margin-left: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:85%;
+  max-height:700px;
+
+  background-color:grey;
+  padding: 20px;
+  box-shadow: 0 2px 4px white;
+  z-index: 1000; /* Ensure it appears above the table */
+}
+
+.details {
+  background-color:#fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,1390 @@
+/*.App {
+  text-align: center;
+  
+  background-color: #eeeeee;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.create_user{
+  display:center;
+}
+
+*/
+=
+
+.App {
+  text-align: center;
+  background-image: url(./background.jpg);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+/*
+.App {
+  text-align: center;
+}
+*/
+/* src/App.css */
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+/*
+.App {
+  text-align: center;
+}*/
+
+.form-container1{
+ /*
+  margin-left: 100px;
+  display:flex;
+  
+  max-width: 800px;
+  width: 100%;
+  
+  padding-right: 40px;
+  box-sizing: border-box;
+  border: 2px solid #ccc !important; /* Add border properties */
+  border-radius: 8px;
+  box-shadow: 0 4px 64px #00000026;
+    display: flex;
+    
+    padding: 10px 0 10px 10px;
+    background: #fff;
+    height: calc(100vh - 200px);
+    overflow: hidden;
+    border-radius: 12px 12px 12px 60px;
+    
+  
+}
+
+.form-container{
+  box-shadow: 0 4px 64px #00000026;
+    display: flex;
+    
+    padding: 10px 0 10px 10px;
+    background: #fff;
+    height: calc(100vh - 200px);
+   max-width:700px;
+    overflow: hidden;
+    border-radius: 12px 12px 12px 60px;
+    margin-left: 70px;
+   
+    
+}
+.form-section{
+  
+  
+    /*width: calc(100% - 384px);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    width:400px;
+    
+    z-index: 9;
+   /* Adjust as needed */
+}
+
+.form-section1{
+  
+    border-radius: 12px 60px 0;
+    background: #FFC700;
+    padding: 20px;
+    
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+
+}
+.input-image {
+  padding-top: 120px;
+  padding-bottom: 110px;
+  padding-left: 33px;
+  padding-right: 20px;
+  width: 70%; /* Make the image fill the container */
+  height:50%;
+}
+
+
+
+
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  left: 1px;
+  color: #aaa;
+  transition: top 0.3s, font-size 0.3s;
+}
+
+.focused label, input:focus ~ label, textarea:focus ~ label {
+  top: -12px;
+  font-size: 12px;
+  color: #333;
+}
+
+.input-container input,
+.input-container textarea,.input-container select {
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.label-float {
+  top: -12px;
+  font-size: 12px;
+  color: #333;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+.progress-bar {
+  display: flex;
+  align-items: center;
+}
+
+.step {
+  cursor: pointer;
+  padding: 10px;
+  color:#5d41a8;
+  border-radius: 5px;
+  
+  user-select: none;
+}
+
+.step.active {
+ 
+  color:rgb(64, 64, 177);
+}
+
+.line {
+  height: 4px;
+  flex-grow: 3;
+  color:rgb(40, 171, 68);
+  background-color: aqua;
+}
+.required{
+  color:red;
+}
+
+.sign-up{
+  
+    margin: auto;
+    /*width: 100%;*/
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 30px 20px;
+
+}
+
+input[type="radio"] {
+  /*display: none;*/
+}
+
+.radio-sign{
+  display:none;
+}
+
+/* Style the label to resemble a button */
+label.radio-button {
+  display: inline-block;
+  
+  padding: 8px 12px; /* Adjust padding as needed */
+  font-size: 14px; 
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the label when the radio button is checked */
+input[type="radio"]:checked + label.radio-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.radio-buttons-container {
+  display: flex;
+  justify-content: center; /* horizontally centers the items */
+  align-items: center;
+   /* vertically centers the items */
+   width: 100%;
+}
+
+.radio-button {
+  position: relative;
+  margin-right: 10px; /* Adds space between radio buttons and labels */
+  padding: 8px 12px; /* Adjust padding as needed */
+  font-size: 14px; 
+  top: 10px;
+  left: 1px;
+  color: #aaa;
+  transition: top 0.3s, font-size 0.3s;
+}
+ 
+/* styles.css */
+
+
+.relative-label {
+  position: relative;
+  margin-right: 10px;
+  top: 1px;
+  left: 1px;
+  color:black;
+  transition: top 0.3s, font-size 0.3s;
+  margin-bottom: 10px;
+}
+
+
+.container{
+  /*display: flex;*/
+  margin:0px;
+  padding:0px
+}
+main{
+  width: 100%;
+  padding: 20px;
+}
+.sidebar{
+  /*background: #000;*/
+  color: #fff;
+  width: 1000px;
+  height: 100vh;
+  background: linear-gradient(to right,#0acffe 0,#495aff 100%);
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+}
+
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 500px;
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background:lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  background: lightskyblue;
+  color: #000;
+  text-decoration: underline;
+}
+.icon, .link_text{
+  font-size: 20px;
+}
+/*
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}*/
+.power{
+  padding-left: 20px;
+}
+.Embed-container {
+  background-color: #282c34;
+  height: 700px;
+  width: 1150px;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Adm{
+  padding-left: 3px;
+}
+.Fac{
+  padding-left: 3px;
+}
+
+
+.centered-container{
+  padding-left: 5px;
+}
+.list-rev{
+  margin-top:100px;
+  padding-left: 00px;
+}
+
+
+
+/* src/App.css */
+
+
+
+
+
+
+body.login-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  /*margin-left: 600px;*/
+}
+body {
+  margin: 0;
+  padding:0;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  /* Optional styles */
+  height: 5vh;
+  margin:0px;
+  padding:0;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  width: 110%;
+  height:80px;
+  margin: 0px;
+  padding: 0;
+  background: linear-gradient(to right,#0acffe 0,#495aff 100%);
+}
+
+.column1 {
+  flex:0.55;
+  padding: 30px;
+  /*border: 1px solid #ccc;*/
+  align-items: center;
+}
+
+.double {
+  flex: 3; /* This column takes double the space */
+  
+}
+
+.column1:nth-child(even) {
+  justify-content: flex-end;
+  background: "linear-gradient(to right,#0acffe 0,#495aff 100%);" /* Background color for the second column */
+  
+}
+
+.left-align {
+  flex: 1; /* This column takes 1 part */
+  justify-content: flex-start; /* Align content to the left */
+}
+
+.right-align {
+  flex:0.15; /* This column takes 1 part */
+  justify-content: flex-end; /* Align content to the right */
+}
+
+.white-text {
+  color: white; /* Set text color to white */
+  padding-right: 5px;
+}
+
+
+.table-container {
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 20px; /* Border radius */
+  padding: 20px; /* Optional: Add padding for spacing between table and border */
+  margin-right: 0px;
+  margin-left: 30px;
+  width:1100px;
+  background-color: white;
+  box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.33);
+}
+
+
+.text-with-line {
+  position: relative;
+  display: inline-block;
+}
+
+.text-with-line:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px; /* Adjust based on your design */
+  width: 100%; /* Adjust the width of the line */
+  height: 0.5px; /* Adjust the thickness of the line */
+  background-color:grey; /* Adjust the color of the line */
+}
+
+
+
+
+.text-with-line-top {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.text-with-line-top:before {
+  margin-top: 10px;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -3px; /* Adjust based on your design */
+  width: 100%; /* Adjust the width of the line */
+  height: 1px; /* Adjust the thickness of the line */
+  background-color:grey; /* Adjust the color of the line */
+}
+
+.text-right{
+  text-align: right !important;
+}
+
+.btn-danger {
+  margin-top: 20px;
+  padding-top: 8px;
+  background-color: #fb9678;
+  border-color: #fb9678;
+  width:150px;
+}
+
+.btn-pill{
+  border-radius: 60px;
+}
+
+.btn-warning {
+  margin-top: 20px;
+  padding-top: 8px;
+  background-color: #fec107;
+  border-color: #fec107;
+  width:150px;
+}
+
+.btn-success {
+  
+  background-color: green;
+  border-color:green;
+  width:160px;
+}
+
+/*********************
+This is for Review Css
+*********************/
+.page-body {
+  padding: 0 30px;
+}
+
+.row-rev {
+  /*display: flex;*/
+  
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+
+}
+
+.col-md-12-rev{
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-md-12{
+  display:inline;
+}
+.panel {
+  position: relative;
+  color: #555;
+  background: #FFF;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.33);
+}
+
+.panel-head {
+  display: table;
+  width: 100%;
+  margin: 0;
+  color: #777;
+  padding: 20px 25px 15px 25px;
+  border-bottom: 1px solid #EEE;
+}
+
+.panel-title {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Dosis", "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.panel-body {
+  padding: 25px;
+}
+
+.panel-footer {
+  border-top: 1px solid #DDD;
+  padding: 20px 25px;
+}
+.text-right {
+  text-align: right !important;
+}
+
+.btn-primary {
+  background-color: #3F51B5;
+  border-color: #3F51B5;
+}
+
+.m-1 {
+  margin: 0.25rem !important;
+}
+
+.form-group {
+  align-items: center;
+  margin-bottom: 25px;
+  
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.06);
+}
+
+.form-group label, .col-form-label {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+  display:inline-block;
+  
+}
+
+.select.form-control:not([size]):not([multiple]) {
+  height: 51px;
+}
+
+.form-control{
+  margin-left: 5px;
+  width:98%;
+  height:50px;
+  
+  border:none;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+
+/***************************************
+This is for Create Project Css
+**************************************/
+
+
+.page-body-create-proj {
+  padding: 0 30px;
+}
+
+.row-creat-proj{
+  /*display: flex;*/
+  
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+
+}
+
+.col-md-12-creat-proj{
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-md-12{
+  display:inline;
+}
+
+.col-md-6-creat-proj {
+  
+  flex: 0 0 50%;
+  max-width: 47%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+/*
+.col-md-6{
+  display:flex;
+}*/
+
+.creat-proj-dis{
+display:flex;
+}
+.panel-creat-proj {
+  position: relative;
+  color: #555;
+  background: #FFF;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.33);
+}
+
+.panel-head-creat-proj {
+  display: table;
+  width: 100%;
+  margin: 0;
+  color: #777;
+  padding: 20px 25px 15px 25px;
+  border-bottom: 1px solid #EEE;
+}
+
+.panel-title-creat-proj {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Dosis", "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.panel-body-creat-proj {
+  padding: 25px;
+}
+
+.panel-footer-creat-proj {
+  border-top: 1px solid #DDD;
+  padding: 20px 25px;
+}
+.text-right-creat-proj {
+  text-align: right !important;
+}
+
+.btn-primary-creat-proj {
+  background-color: #3F51B5;
+  border-color: #3F51B5;
+}
+
+.m-1-creat-proj {
+  margin: 0.25rem !important;
+}
+
+.form-group-creat-proj {
+  align-items: center;
+  margin-bottom: 25px;
+  
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.06);
+}
+
+.form-group-creat-proj label, .col-form-label {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+  display:inline-block;
+  
+}
+
+.select.form-control-creat-proj:not([size]):not([multiple]) {
+  height: 51px;
+}
+
+.form-control-creat-proj{
+  margin-left: 5px;
+  width:98%;
+  height:50px;
+  
+  border:none;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.06);
+}
+
+.textarea.form-control-creat-proj {
+  height:500px;
+  min-height: 200px;
+  padding: 10px 20px;
+  line-height: normal;
+}
+.textarea{
+  height:300px;
+}
+
+/******************************
+Error for add project
+********************************/
+.error {
+  color: red;
+  text-align: right;
+  font-weight:50px;
+  position: absolute;
+  top:120px;
+  margin-left: 200px;  
+  color: #ff0000;
+  padding: 8px;
+  border-radius: 4px;
+  
+}
+
+
+.errorMessage {
+  position: absolute;
+  
+  left: 50%;
+  transform: translateX(-80%);
+  top: -700px;
+  background-color: transparent;
+  color: #ff0000;
+  padding: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.errorMessage button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color:red;
+  color:none;
+}
+
+.error-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color:red;
+  background-color: none;
+  
+}
+
+.error-btn :hover{
+background-color:black;
+color:none;
+}
+
+.errorMessage button :hover{
+  background-color: none;
+color:none;
+}
+
+
+/*
+.alert {
+  
+  top: 0;
+  left: 50%;
+  
+  background-color: #f8d7da; /* Red background color 
+  color: #721c24; /* Dark red text color 
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15); /* Box shadow for depth 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%; 
+}
+
+.alert span {
+  margin-right: 1rem; /* Add spacing between message and close button 
+}
+
+.alert button {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 1.5rem; /* Adjust close button size 
+}
+
+.alert button:hover {
+  color: #721c24; /* Dark red color on hover 
+}*/
+
+
+
+/***********************************
+Css for list reviews
+***********************************/
+
+
+.btn-rev{
+  margin-top: 1px;
+  padding-top: 8px;
+  background-color: #fb9678;
+  border-color: #fb9678;
+  width:100px;
+}
+
+
+.btn-list-rev{
+  margin: 10px;
+  padding: 15px;
+  background-color: green;
+  border-color:green;
+  width:300px;
+  border-radius: 60px;
+}
+
+
+.tabel-striped th{
+ border-bottom: 1px solid black;
+ border:1px solid black
+}
+
+.table-striped-list-rev td{
+  border:#000;
+}
+
+.col-md-6-edit-rev {
+  
+  flex: 0 0 50%;
+  max-width: 47%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/**************************************************
+Settings css
+************************************************/
+
+.active {
+  padding: 0px;
+  text-decoration: underline;
+  padding-bottom: 5px;
+  
+}
+/*
+.line-sett{
+  border-bottom:2px solid gray;
+}*/
+
+
+/******************************
+css for profile project
+*******************************/
+.panel {
+  position: relative;
+  color: #555;
+  margin-left: 20px;
+  background: #FFF;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.33);
+}
+
+.br-20x {
+  border-radius: 20px !important;
+}
+.panel-head {
+  display: table;
+  width: 100%;
+  margin: 0;
+  color: #777;
+  padding: 20px 25px 15px 25px;
+  border-bottom: 1px solid #EEE;
+}
+
+.panel-title {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Dosis", "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.panel-title-text {
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size:20px;
+}
+
+.panel-title-text-desc{
+  display: table-cell;
+  vertical-align: middle;
+  
+  color:black;
+  font-size:20px;
+}
+
+.panel-body {
+  padding: 25px;
+}
+
+.panel-footer {
+  border-top: 1px solid #DDD;
+  padding: 20px 25px;
+}
+
+.row-profile {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+/**********************************
+custom batch csss
+**************************************/
+
+.page-body-custom {
+  padding: 0 30px;
+}
+
+.row-custom {
+  /*display: flex;*/
+  
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+
+}
+
+.col-md-12-custom{
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-md-12{
+  display:inline;
+}
+.panel-custom {
+  position: relative;
+  color: #555;
+  background: #FFF;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.33);
+}
+
+.panel-head-custom {
+  display: table;
+  width: 100%;
+  margin: 0;
+  color: #777;
+  padding: 20px 25px 15px 25px;
+  border-bottom: 1px solid #EEE;
+}
+
+.panel-title-custom {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Dosis", "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.panel-body-custom {
+  padding: 25px;
+}
+
+.panel-footer-custom {
+  border-top: 1px solid #DDD;
+  padding: 20px 25px;
+}
+.text-right {
+  text-align: right !important;
+}
+
+.btn-primary {
+  background-color: #3F51B5;
+  border-color: #3F51B5;
+}
+
+.m-1 {
+  margin: 0.25rem !important;
+}
+
+.form-group-custom {
+  align-items: center;
+  margin-bottom: 25px;
+  
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.06);
+}
+
+.form-group-custom label, .col-form-label {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+  display:inline-block;
+  
+}
+
+.select.form-control-custom:not([size]):not([multiple]) {
+  height: 51px;
+}
+
+.form-control-custom{
+  margin-left: 5px;
+  width:98%;
+  height:50px;
+  
+  border:none;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+
+/*****************************************
+Automate Batch css
+*****************************************/
+.page-body-automate {
+  padding: 0 30px;
+}
+
+.row-automate {
+  /*display: flex;*/
+  
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+
+}
+
+.col-md-12-automate{
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-md-12{
+  display:inline;
+}
+.panel-automate {
+  position: relative;
+  color: #555;
+  background: #FFF;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.33);
+}
+
+.panel-head-automate {
+  display: table;
+  width: 100%;
+  margin: 0;
+  color: #777;
+  padding: 20px 25px 15px 25px;
+  border-bottom: 1px solid #EEE;
+}
+
+.panel-title-automate {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Dosis", "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.panel-body-automate {
+  padding: 25px;
+}
+
+.panel-footer-automate {
+  border-top: 1px solid #DDD;
+  padding: 20px 25px;
+}
+.text-right {
+  text-align: right !important;
+}
+
+.btn-primary {
+  background-color: #3F51B5;
+  border-color: #3F51B5;
+}
+
+.m-1 {
+  margin: 0.25rem !important;
+}
+
+.form-group-automate {
+  align-items: center;
+  margin-bottom: 25px;
+  
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.06);
+}
+
+.form-group-automate label, .col-form-label {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 10px;
+  display:inline-block;
+  
+}
+
+.select.form-control-automate:not([size]):not([multiple]) {
+  height: 51px;
+}
+
+.form-control-automate{
+  margin-left: 5px;
+  width:98%;
+  height:50px;
+  
+  border:none;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+
+/**************************************
+Edit Guide 
+*************************************/
+.edit-guide-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background-color:grey; /* Semi-transparent black background */
+  z-index: 999; /* Ensure the overlay is on top of other content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 500px;
+  margin-top: 200px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.close-button:hover {
+  color: #ccc; /* Change color on hover */
+}
+
+.edit-guide-over {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  z-index: 99; /* Ensure the overlay is on top of other content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-guide-form {
+  margin-left: 250px;
+  background-color: white; /* Background color for the form */
+  padding: 20px; /* Add padding for content */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow for depth */
+  width:300px;
+  padding-right:200px ;
+}
+
+
+
+.update-form {
+  border:1pxsolid black;
+  position: fixed;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center the form */
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 1001; /* Ensure form is on top of overlay */
+}
+
+
+.update-form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.update-form select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Buttons */
+.update-form button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Button styles */
+.update-form button[type="button"] {
+  background-color: #ccc;
+}
+
+.update-form button[type="button"]:hover {
+  background-color: #bbb;
+}
+
+.update-form button[type="submit"] {
+  background-color: #007bff; /* Bootstrap's primary color */
+  color: white;
+}
+
+.update-form button[type="submit"]:hover {
+  background-color: #0056b3; /* Darker shade of primary color */
+}
+
+.background-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 1000; /* Ensure overlay is on top of other content */
+}
+
+.review-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-middle;
+}
+
+.review-container > div {
+  margin-bottom: 5px; /* Adjust margin as needed */
+}
